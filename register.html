@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Register Here For A ticket </h1>
+  </header>
+  <main>
+    <form action="/register" method="post">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first_name" required><br><br>
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last_name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone number">Phone Number:</label>
+      <input type="phone number" id="phone number" name="phone number" minlength="10" required><br><br>
+
+      <label for="confirm-phone number">Confirm number:</label>
+      <input type="phone number" id="phone number" name="confirm_phone number" minlength="10" required><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+  <footer>
+    <p>Already have a ticket ? <a href="register.html"> Register here</a>.</p>
+  </footer>
+</body>
+
+</html>
